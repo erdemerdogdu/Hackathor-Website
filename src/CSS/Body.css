@@ -1,0 +1,51 @@
+.page2{
+    width: 90%;
+    padding:5%;
+   
+}
+
+.page2 .textdiv{
+    
+    background-color: hsl(225, 66%, 28%);
+    width: auto;
+    height: auto;
+   
+    justify-content: center;
+    border-radius: 5rem;
+    
+    
+}
+
+.page2 .textdiv h2{
+    color:white;
+    font-size: 3.5vw;
+    line-height: 1.4em;
+    text-align: center;
+    font-family: monospace;
+}
+
+.page2 .textdiv h4{
+    text-align: center;
+    color:white;
+    padding: 0 7%;
+    font-size: 2vw;
+}
+
+.page2 .textdiv p{
+    text-align: center;
+    color:white;
+    padding: 0 7%;
+    font-size: 1.7vw;
+}
+
+@media screen and (max-width: 768px) {
+    .page2 .textdiv p{
+        font-size:18px;
+    }
+    .page2 .textdiv h4{
+        font-size:24px;
+    }
+    .page2 .textdiv h2{
+        font-size: 32px;
+    }
+}
