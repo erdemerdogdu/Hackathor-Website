@@ -56,7 +56,12 @@ footer.top .links {
 .links-column {
     display: grid;
     gap: 10px;
-    text-align: center;
+    text-align: left;
+}
+
+.links-column a {
+    margin: 0;
+    gap: 10px;
 }
 
 footer h2 {
