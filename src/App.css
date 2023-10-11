@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
 .App {
   text-align: center;
   background: linear-gradient(135deg,#101D42,#0d1317);
-  padding:20px;
+  padding-top: 2%;
+  font-family: "Titillium Web", sans-serif;
 }
 

@@ -3,35 +3,47 @@ import "../CSS/Footer.css"
 
 function Footer() {
   return (
-    <div class="Footer">
-        <footer class="top">
-            <div class="links">
-            <div class="links-column">
-                <h2>Address</h2>
-                <a>Example</a>
-            </div>
-            <div class="links-column">
-                <h2>Mail</h2>
-                <a>Example</a>
-            </div>
-            <div class="links-column socials-column">
-                <h2>Social Media</h2>
-                <p>
-                Follow us on social media to find out the latest updates on our
-                progress.
-                </p>
-                <div class="socials">
-                <a class="fa-brands fa-facebook"></a>
-                <a class="fa-brands fa-instagram"></a>
-                <a class="fa-brands fa-linkedin"></a>
-                </div>
-            </div>
-            </div>
-        </footer>
-        <footer class="bottom">
-            <img src="hackathor2.png" />
-            <p class="copyright">© 2023 All rights reserved</p>
-        </footer>
+    <div class="footer">
+      <div class="content">
+        <div class="social-media">
+          <h4>Social</h4>
+          <p>
+            <a href="#"
+              ><i class="fab fa-linkedin"></i> Linkedin</a>
+          </p>
+          <p>
+            <a href="#"
+              ><i class="fab fa-twitter"></i> Twitter</a>
+          </p>
+          <p>
+            <a href="#"
+              ><i class="fab fa-github"></i> Github</a>
+          </p>
+          <p>
+            <a href="#"
+              ><i class="fab fa-facebook"></i> Facebook</a>
+          </p>
+          <p>
+            <a href="#"
+              ><i class="fab fa-instagram"></i> Instagram</a>
+          </p>
+        </div>
+        <div class="details">
+          <h4 class="address">Address</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur <br />
+            adipisicing elit. Cupiditate, qui!
+          </p>
+          <h4 class="mail">Email</h4>
+          <p><a href="#">bilkentyes@gmail.com</a></p>
+        </div>
+      </div>
+      <footer>
+        <hr />
+        <img src="./hackathor2.png"></img>
+        <br />
+        © 2023 Bilkent YES
+      </footer>
     </div>
   )
 }
