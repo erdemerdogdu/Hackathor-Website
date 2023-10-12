@@ -6,8 +6,13 @@ import "../CSS/Footer.css"
 function Footer() {
   return (
     <div class="footer">
+      <hr />
       <div class="content">
-        <div class="social-media">
+      <div>
+        <img src={require("../Assets/yes.png")}></img>
+        
+        </div>
+        <div class="social-media" id="footer">
           <h4>Social</h4>
           <p>
             <a href="#"><FontAwesomeIcon icon={faLinkedin} /> Linkedin</a>
@@ -34,13 +39,9 @@ function Footer() {
           <h4 class="mail">Email</h4>
           <p><a href="#">bilkentyes@gmail.com</a></p>
         </div>
+        
       </div>
-      <footer>
-        <hr />
-        <img src={require("../Assets/yes.png")}></img>
-        <br />
-        © 2023 Bilkent YES
-      </footer>
+      © 2023 Bilkent YES
     </div>
   )
 }

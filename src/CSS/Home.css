@@ -12,6 +12,7 @@
   font-size: 8vw;
   color: white;
   text-align: center;
+  scroll-snap-align: end;
 }
 
 /* Unleash your code! */
@@ -32,6 +33,7 @@ h2 {
 
 .home-content-p {
   margin: 5px;
+  scroll-snap-align: center;
 }
 
 /* PC */

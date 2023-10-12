@@ -1,4 +1,5 @@
-import React, {useRef} from "react";
+import React, {useRef} from "react"
+import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import "../CSS/Navbar.css";
@@ -25,10 +26,10 @@ function Navbar(props) {
       <header class="header">
         <a href="#" class="logo"><img src={require("../Assets/hackathor.png")} alt="logo"></img></a>
         <nav class="navbar">
-          <a href="#" class="">About</a>
+          <a href="#whatis" class="">About</a>
           <a href="#" class="">Photos</a>
           <a href="#" class="">Coordinators</a>
-          <a href="#" class="">Contact</a>
+          <a href="#footer" class="">Contact</a>
         </nav>
       </header>
     )

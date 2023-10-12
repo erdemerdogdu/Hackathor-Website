@@ -3,7 +3,7 @@ import "../CSS/Body.css";
 
 function Body() {
   return (
-    <div class="page2">
+    <div class="page2" id="whatis">
       <div class="textdiv">
         <h2>What is HACKATHOR</h2>
         <div>

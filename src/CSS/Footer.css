@@ -37,9 +37,9 @@ footer {
   color: white;
 }
 
-footer img {
+img {
   max-width: 250px;
-  padding-right: 20px;
+  margin: auto;
   width: 40%;
 }
 

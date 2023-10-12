@@ -1,4 +1,7 @@
-
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+}
 
 @media (min-width:768px) {
   .header{
