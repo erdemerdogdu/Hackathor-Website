@@ -5,9 +5,7 @@ function Body() {
   return (
     <div class="page2">
       <div class="textdiv">
-        <div>
-          <h2>What is HACKATHOR</h2>
-        </div>
+        <h2>What is HACKATHOR</h2>
         <div>
           <h4>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -29,9 +27,7 @@ function Body() {
         </div>
       </div>
       <div class="textdiv">
-        <div>
           <h2>What is HACKATHOR</h2>
-        </div>
         <div>
           <h4>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
