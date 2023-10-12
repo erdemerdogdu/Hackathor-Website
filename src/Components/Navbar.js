@@ -23,7 +23,7 @@ function Navbar(props) {
   {
     return (
       <header class="header">
-        <a href="#" class="logo"><img src="hackathor2.png" alt="logo"></img></a>
+        <a href="#" class="logo"><img src={require("../Assets/hackathor.png")} alt="logo"></img></a>
         <nav class="navbar">
           <a href="#" class="">About</a>
           <a href="#" class="">Photos</a>

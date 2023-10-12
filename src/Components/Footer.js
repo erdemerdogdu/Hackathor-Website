@@ -37,7 +37,7 @@ function Footer() {
       </div>
       <footer>
         <hr />
-        <img src="./hackathor2.png"></img>
+        <img src={require("../Assets/yes.png")}></img>
         <br />
         © 2023 Bilkent YES
       </footer>
