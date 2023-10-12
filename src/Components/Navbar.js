@@ -1,5 +1,6 @@
 import React, {useRef} from "react";
-// import { FaBars, FaTimes } from "react-icons/fa";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import "../CSS/Navbar.css";
 
 function Navbar(props) {
@@ -44,13 +45,13 @@ function Navbar(props) {
           <button
             className="nav-btn nav-close-btn"
             onClick={showNavbar}>
-            {/* <FaTimes /> */}
+            <FontAwesomeIcon icon={faBars} />
           </button>
         </nav>
         <button
           className="nav-btn"
           onClick={showNavbar}>
-          {/* <FaBars /> */}
+          <FontAwesomeIcon icon={faXmark} />
         </button>
       </header>
     )
