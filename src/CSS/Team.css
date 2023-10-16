@@ -80,12 +80,22 @@
   }
   
   .social-media-links {
-    width: 150px;
-    height: 100px;;
+    max-width: 150px;
+    scale: 2.2;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
   }
-  
+
+  .social-media-links:hover{
+    scale:3;
+    /* transform: rotate(-5deg); */
+    transition: 0.7s ease-in-out;
+    filter: invert(1);
+  }
+
+  .social-media-links #twitter:hover,#instagram:hover,#facebook:hover,#gmail:hover{
+   
+  }
   .name {
     font-size: 25px;
     font-weight: 700;
@@ -109,6 +119,7 @@
   .team-img {
     width: 100%;
     height: 100%;
+    
   }
   
   .team-card-container {

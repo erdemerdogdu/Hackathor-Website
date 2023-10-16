@@ -25,16 +25,16 @@ function Team() {
             </p>
             <div class="social-media-links">
               <a href="http://www.twitter.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
+                <img id="twitter" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
               </a>
               <a href="http://www.facebook.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
+                <img id="facebook"src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
               </a>
               <a href="http://www.instagram.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
+                <img id="instagram" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
               </a>
               <a href="http://www.gmail.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
+                <img id="gmail" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
               </a>
             </div>
           </div>
@@ -51,17 +51,17 @@ function Team() {
               Instructor
             </p>
             <div class="social-media-links">
-              <a href="http://www.twitter.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
+            <a href="http://www.twitter.com/" target="_blank">
+                <img id="twitter" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
               </a>
               <a href="http://www.facebook.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
+                <img id="facebook"src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
               </a>
               <a href="http://www.instagram.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
+                <img id="instagram" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
               </a>
               <a href="http://www.gmail.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
+                <img id="gmail" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
               </a>
             </div>
           </div>
@@ -78,17 +78,17 @@ function Team() {
               Instructor
             </p>
             <div class="social-media-links">
-              <a href="http://www.twitter.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
+            <a href="http://www.twitter.com/" target="_blank">
+                <img id="twitter" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
               </a>
               <a href="http://www.facebook.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
+                <img id="facebook"src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
               </a>
               <a href="http://www.instagram.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
+                <img id="instagram" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
               </a>
               <a href="http://www.gmail.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
+                <img id="gmail" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
               </a>
             </div>
           </div>
@@ -105,17 +105,17 @@ function Team() {
               Instructor
             </p>
             <div class="social-media-links">
-              <a href="http://www.twitter.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
+            <a href="http://www.twitter.com/" target="_blank">
+                <img id="twitter" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
               </a>
               <a href="http://www.facebook.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
+                <img id="facebook"src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
               </a>
               <a href="http://www.instagram.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
+                <img id="instagram" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
               </a>
               <a href="http://www.gmail.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
+                <img id="gmail" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
               </a>
             </div>
           </div>
@@ -132,17 +132,17 @@ function Team() {
               Instructor
             </p>
             <div class="social-media-links">
-              <a href="http://www.twitter.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
+            <a href="http://www.twitter.com/" target="_blank">
+                <img id="twitter" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
               </a>
               <a href="http://www.facebook.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
+                <img id="facebook"src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
               </a>
               <a href="http://www.instagram.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
+                <img id="instagram" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
               </a>
               <a href="http://www.gmail.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
+                <img id="gmail" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
               </a>
             </div>
           </div>
@@ -159,17 +159,17 @@ function Team() {
               Instructor
             </p>
             <div class="social-media-links">
-              <a href="http://www.twitter.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
+            <a id="twitter" href="http://www.twitter.com/" target="_blank">
+                <img  src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
               </a>
               <a href="http://www.facebook.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
+                <img id="facebook"src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
               </a>
               <a href="http://www.instagram.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
+                <img id="instagram" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
               </a>
               <a href="http://www.gmail.com/" target="_blank">
-                <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
+                <img id="gmail" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
               </a>
             </div>
           </div>
