@@ -1,71 +1,74 @@
-.home{
-    width: 100%;
-    height:100%;
-  }
-
-.home-heading {
-  padding: 100px 0 300px 0;
+.home .home-heading {
+  display: flex;
+  height: 94vh;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Hackathor Başlıyor! */
-.home-heading h1 {
-  font-size: 8vw;
+.home .home-heading h1 {
+  font-size: 72px;
+  padding-bottom: 7vh;
   color: white;
   text-align: center;
-  scroll-snap-align: end;
+  user-select: none;
 }
 
 /* Unleash your code! */
-h2 {
+.home .home-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4vh 2vw;
+  scroll-snap-align: start;
+}
+
+.home h2 {
   text-align: left;
   color: white;
-  padding-left: 5%;
-  margin-bottom: 0;
-  font-size: 6vw;
+  font-size: 48px;
 }
 
-.home-content p {
-  margin-top: 0;
-  font-size: 2.5vw;
+.home .home-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 4.2vw;
+  gap: 1vw;
+}
+
+.home .home-paragraph {
+  width: 50%;
+}
+
+.home .home-content p {
+  font-size: 36px;
   color: white;
   text-align: left;
 }
 
-.home-content-p {
-  margin: 5px;
-  scroll-snap-align: center;
-}
-
-/* PC */
-@media (min-width:768px) {
- /* Unleash your code paragraphs */
-  .home-content {
-    display: flex;
-    margin: 0 5% 0 5%;
-    /* For tests */
-    /* border: 3px solid #73AD21; */
-  }
-}
-/* Mobile */
-@media (max-width:768px) {
-  .home-content {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 5% 0 5%;
-    
-    /* For tests */
-    /* border: 3px solid black; */
+@media (max-width: 650px) {
+  .home .home-content {
+    display: block;
   }
 
-  .home .home-content p{
-    font-size: 20px;
+  .home .home-paragraph {
+    width: 100%;
   }
 
-  h2 {
+  .home .home-heading h1 {
+    font-size: 48px;
+  }
+
+  .home h2 {
     text-align: left;
     color: white;
-    padding-left: 5%;
-    margin-bottom: 0;
+    font-size: 36px;
+  }
+
+  .home .home-content p {
     font-size: 24px;
+    color: white;
+    text-align: left;
   }
 }

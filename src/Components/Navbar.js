@@ -1,66 +1,51 @@
-import React, {useRef} from "react";
-// import { FaBars, FaTimes } from "react-icons/fa";
+import React, { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import {hackhathorLogo} from '../Assets'
 import "../CSS/Navbar.css";
 
-function Navbar(props) {
+function Navbar() {
+    const [isOpen, setIsOpen] = useState(false);
+    const toggleMenu = (e) => {
+      if(document.getElementById("mobile-list").classList.contains("is-open"))
+        document.getElementById("mobile-list").classList.remove("is-open");
+      else
+        setTimeout(() => {
+          if(!document.getElementById("mobile-list").classList.contains("is-open"))
+            document.getElementById("mobile-list").classList.add("is-open");
+          else
+            document.getElementById("mobile-list").classList.remove("is-open");
+        }, 500)
+      
+      setIsOpen((open) => !open)
+    }
 
-  const navRef = useRef();
-
-	const showNavbar = () => {
-		navRef.current.classList.toggle(
-			"responsive_nav"
-		);
-	};
-
-  const [width, setWidth] = React.useState(window.innerWidth);
-  const breakpoint = 620;
-
-  React.useEffect(() => {
-    window.addEventListener("resize", () => setWidth(window.innerWidth));
-  }, []);
-
-  if (width > 768)
-  {
     return (
-      <div>
-      <header class="header">
-      <img src="./hackathor.png" />
-      <nav class="navbar">
-        <a href="#whatis" class="">About</a>
-        <a href="#" class="">Photos</a>
-        <a href="#" class="">Coordinators</a>
-        <a href="#footer" class="">Contact</a>
-      </nav>
-      </header>
+      <div className="navBar">
+        <header>
+          <div className={`header-inner ${isOpen ? "is-open" : ""}`}>
+            <div className={`mobile-nav ${isOpen ? "is-open" : ""}`}>
+              <div className="mobile-upper">
+                <img src={hackhathorLogo} alt="hackathor"/>
+                <FontAwesomeIcon onClick={toggleMenu} icon={faBars} />
+              </div>
+              <ul className={`mobile-list`} id="mobile-list">
+                <li onClick={toggleMenu}><a href="#about">Hakkında</a></li>
+                <li onClick={toggleMenu}><a href="#team">Koordinatörler</a></li>
+                <li onClick={toggleMenu}><a href="#footer">İletişim</a></li>
+              </ul>
+            </div>
+            <div className={`desktop-nav ${isOpen ? "is-open" : ""}`}>
+              <img src={hackhathorLogo} alt="hackathor"/>
+              <ul className="desktop-list">
+                <li><a href="#about">Hakkında</a></li>
+                <li><a href="#team">Koordinatörler</a></li>
+                <li><a href="#footer">İletişim</a></li>
+              </ul>
+            </div>
+          </div>
+        </header>
       </div>
     )
-  }
-  else{
-    return ( 
-      <>
-      <style>
-        
-      </style>
-      <h3>LOGO</h3>
-			<nav ref={navRef}>
-				<a href="/#">Home</a>
-				<a href="/#">My work</a>
-				<a href="/#">Blog</a>
-				<a href="/#">About me</a>
-				<button
-					className="nav-btn nav-close-btn"
-					onClick={showNavbar}>
-					{/* <FaTimes /> */}
-				</button>
-			</nav>
-			<button
-				className="nav-btn"
-				onClick={showNavbar}>
-				{/* <FaBars /> */}
-			</button>
-      </>
-    )
-  }
-
 }
 export default Navbar;

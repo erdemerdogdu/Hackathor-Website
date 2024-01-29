@@ -3,29 +3,30 @@ import "../CSS/Home.css";
 
 function Home() {
   return (
-    <div class="home">
-      <div class="home-heading">
+    <div className="home">
+      <div className="home-heading">
         <h1>
           HACKATHOR<br />BAŞLIYOR!
         </h1>
       </div>
-      <h2>Unleash Your Code!</h2>
-      <div class="home-content">
-        <div class="home-content-p">
-          <p>
-            Witness the ultimate fusion of creativity and technology! Assemble
-            your A-team and embark on an epic coding journey, where you’ll race
-            against time to crack complex challenges and emerge as hackathon
-            royalty!
-          </p>
+      <div className="home-info">
+        <div className="home-info-heading">
+          <h2>Yazılımını Geliştir!</h2>
         </div>
-        <div class="home-content-p">
-          <p>
-            Rub shoulders with the crème de la crème of the tech world—from
-            Python prodigies to seasoned software savants. But most importantly,
-            get ready to have your mind blown, as you discover just how deep the
-            rabbit hole goes.
-          </p>
+        <div className="home-content">
+          <div className="home-paragraph">
+            <p>
+              Her satırda inovasyon, her kodda gelecek var!
+              Türkiye'nin her köşesinden gelen tutkulu kodlama geliştiricileri, 24 saatlik heyecan dolu maratonda buluşuyor.
+              Algoritmaların ve yazılımların sınırlarını zorlayarak, katılımcılara yaratıcılıklarını sergileme fırsatı...
+            </p>
+          </div>
+          <div className="home-paragraph">
+            <p>
+              Teknoloji, işbirliği ve rekabetin birleşiminde ortaya çıkan benzersiz yarışma, bilgiyi koda dönüştürmenin,
+              geleceği yazmanın bir adım ötesinde bir deneyim sunuyor. Hackathor ile kod dünyasında kendi efsaneni yaz!
+            </p>
+          </div>
         </div>
       </div>
     </div>

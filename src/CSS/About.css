@@ -1,0 +1,54 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2vw;
+    scroll-snap-align: start;
+    padding: 2vh 2vw;
+}
+
+.about .textbox {
+    background-color: hsl(225, 66%, 28%);
+    border-radius: 1.8rem;
+    margin: 1vh 0;
+    box-shadow: rgba(65, 21, 240, 0.4) 5px 5px;
+    padding: 1vw 0;
+}
+
+.about .textbox h2 {
+    color:white;
+    margin: 1px 0;
+    padding: 1vh 4vw;
+    font-size: 36px;
+    text-align: center;
+}
+
+.about .textbox p {
+    padding: 1vh 3vw;
+    color:rgb(217, 217, 217);
+    font-size: 28px;
+}
+
+.about .textbox ul {
+    list-style-position: inside;
+    padding: 1vh 3vw;
+    color:rgb(217, 217, 217);
+    font-size: 28px;
+}
+
+@media (max-width: 650px) {
+    .about .textbox ul {
+        padding: 1vh 3vw;
+    }
+
+    .about .textbox h2 {
+        font-size: 28px;
+    }
+
+    .about .textbox p {
+        font-size: 24px;
+    }
+
+    .about .textbox ul {
+        font-size: 24px;
+    }
+}

@@ -1,182 +1,68 @@
 import React from "react";
+import { faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Baris, erdem, Onurcan, Bilgehan } from '../Assets'
 import "../CSS/Team.css";
 
 function Team() {
   return (
-    <div class="responsive-container-block outer-container">
-    <div class="responsive-container-block inner-container">
-      <p class="text-blk section-head-text">
-        Meet Our Expert Instructors
-      </p>
-      <p class="text-blk section-subhead-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      </p>
-      <div class="responsive-container-block">
-        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-          <div class="team-card">
-            <div class="img-wrapper">
-              <img class="team-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"></img>
-            </div>
-            <p class="text-blk name">
-              Maxwell Doe
-            </p>
-            <p class="text-blk position">
-              Instructor
-            </p>
-            <div class="social-media-links">
-              <a href="http://www.twitter.com/" target="_blank">
-                <img id="twitter" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
-              </a>
-              <a href="http://www.facebook.com/" target="_blank">
-                <img id="facebook"src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
-              </a>
-              <a href="http://www.instagram.com/" target="_blank">
-                <img id="instagram" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
-              </a>
-              <a href="http://www.gmail.com/" target="_blank">
-                <img id="gmail" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
-              </a>
-            </div>
+    <div className="team" id="team">
+      <h2>Koordinatörlerimiz</h2>
+      <div className="coordinators">
+        <div className="coordinator">
+          <div className="coordinator-image">
+            <img src={Baris} />
+          </div>
+          <p>Barış Cihanoğlu</p>
+          <p>Aktif Üye</p>
+          <div className="contact">
+            <a href="#"><FontAwesomeIcon icon={faGithub} /></a>
+            <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
           </div>
         </div>
-        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-          <div class="team-card">
-            <div class="img-wrapper">
-              <img class="team-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png"></img>
-            </div>
-            <p class="text-blk name">
-              Maxwell Doe
-            </p>
-            <p class="text-blk position">
-              Instructor
-            </p>
-            <div class="social-media-links">
-            <a href="http://www.twitter.com/" target="_blank">
-                <img id="twitter" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
-              </a>
-              <a href="http://www.facebook.com/" target="_blank">
-                <img id="facebook"src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
-              </a>
-              <a href="http://www.instagram.com/" target="_blank">
-                <img id="instagram" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
-              </a>
-              <a href="http://www.gmail.com/" target="_blank">
-                <img id="gmail" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
-              </a>
-            </div>
+        <div className="coordinator">
+          <div className="coordinator-image">
+            <img src={erdem} />
+          </div>
+          <p>Erdem Erdoğdu</p>
+          <p>Aktif Üye</p>
+          <div className="contact">
+            <a href="#"><FontAwesomeIcon icon={faGithub} /></a>
+            <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
           </div>
         </div>
-        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-          <div class="team-card">
-            <div class="img-wrapper">
-              <img class="team-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"></img>
-            </div>
-            <p class="text-blk name">
-              Maxwell Doe
-            </p>
-            <p class="text-blk position">
-              Instructor
-            </p>
-            <div class="social-media-links">
-            <a href="http://www.twitter.com/" target="_blank">
-                <img id="twitter" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
-              </a>
-              <a href="http://www.facebook.com/" target="_blank">
-                <img id="facebook"src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
-              </a>
-              <a href="http://www.instagram.com/" target="_blank">
-                <img id="instagram" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
-              </a>
-              <a href="http://www.gmail.com/" target="_blank">
-                <img id="gmail" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
-              </a>
-            </div>
+        <div className="coordinator">
+          <div className="coordinator-image">
+            <img src={Onurcan} />
+          </div>
+          <p>Name Surname</p>
+          <p>Role</p>
+          <div className="contact">
+            <a href="#"><FontAwesomeIcon icon={faGithub} /></a>
+            <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
           </div>
         </div>
-        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-          <div class="team-card">
-            <div class="img-wrapper">
-              <img class="team-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png"></img>
-            </div>
-            <p class="text-blk name">
-              Maxwell Doe
-            </p>
-            <p class="text-blk position">
-              Instructor
-            </p>
-            <div class="social-media-links">
-            <a href="http://www.twitter.com/" target="_blank">
-                <img id="twitter" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
-              </a>
-              <a href="http://www.facebook.com/" target="_blank">
-                <img id="facebook"src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
-              </a>
-              <a href="http://www.instagram.com/" target="_blank">
-                <img id="instagram" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
-              </a>
-              <a href="http://www.gmail.com/" target="_blank">
-                <img id="gmail" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
-              </a>
-            </div>
+        <div className="coordinator">
+          <div className="coordinator-image">
+            <img src={Bilgehan} />
           </div>
-        </div>
-        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-          <div class="team-card">
-            <div class="img-wrapper">
-              <img class="team-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"></img>
-            </div>
-            <p class="text-blk name">
-              Maxwell Doe
-            </p>
-            <p class="text-blk position">
-              Instructor
-            </p>
-            <div class="social-media-links">
-            <a href="http://www.twitter.com/" target="_blank">
-                <img id="twitter" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
-              </a>
-              <a href="http://www.facebook.com/" target="_blank">
-                <img id="facebook"src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
-              </a>
-              <a href="http://www.instagram.com/" target="_blank">
-                <img id="instagram" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
-              </a>
-              <a href="http://www.gmail.com/" target="_blank">
-                <img id="gmail" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-          <div class="team-card">
-            <div class="img-wrapper">
-              <img class="team-img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"></img>
-            </div>
-            <p class="text-blk name">
-              Maxwell Doe
-            </p>
-            <p class="text-blk position">
-              Instructor
-            </p>
-            <div class="social-media-links">
-            <a id="twitter" href="http://www.twitter.com/" target="_blank">
-                <img  src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"></img>
-              </a>
-              <a href="http://www.facebook.com/" target="_blank">
-                <img id="facebook"src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"></img>
-              </a>
-              <a href="http://www.instagram.com/" target="_blank">
-                <img id="instagram" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"></img>
-              </a>
-              <a href="http://www.gmail.com/" target="_blank">
-                <img id="gmail" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"></img>
-              </a>
-            </div>
+          <p>Name Surname</p>
+          <p>Role</p>
+          <div className="contact">
+            <a href="#"><FontAwesomeIcon icon={faGithub} /></a>
+            <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
           </div>
         </div>
       </div>
     </div>
-  </div>
   );
 }
 
