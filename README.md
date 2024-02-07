@@ -1,5 +1,4 @@
 # Hackathor Website - Last Version
-Page Link: 
 
 This project is developed using React library of Javascript.
 
